@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 file_path = 'KNN/iris dataset.csv'
-
 df = pd.read_csv(file_path)
 
 headernames = ['sepal-length', 'sepal-width', 'petal-length',
